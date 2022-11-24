@@ -6,7 +6,7 @@ stages{
   }
   stage ('test'){
   steps {echo "testing"}
-  input "i the testing environment looking ok?"
+  input "is the testing environment looking ok?"
   }
   stage ('deploy'){
   steps {echo "deploying"}
